@@ -11,13 +11,17 @@
         "child": "http://127.0.0.1:8551",
         "parent": "http://127.0.0.1:8552"
     },
+    "ws": {
+        "child": "ws://127.0.0.1:8552/",
+        "parent": "ws://127.0.0.1:9782/"
+    },
     "bridges": [
         {
             "child" : {
-                "operator": "0x37ca5a315d5e17e428bb5edff2b6f2e6211bbe39"
+                "operator": "0x094f4fd262b147921dc8c0097c81ff47e7a75a6d"
             },
             "parent" : {
-                "operator": "0xd5c0321bafc1d82ccd5cb60c0d943328c9d93318"
+                "operator": "0xb2090dbb4383695e8af3dc1b416acfa753e42e29"
             }
         }
     ]
